@@ -167,7 +167,7 @@ const adventurer = {
     name: 'Alice',
   };
   
-  let cat; 
+  let cat = adventurer.age?.name; 
   // Your code here
   
-  console.log(cat?.name);
+  console.log(cat);
